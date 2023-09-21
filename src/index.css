@@ -1,0 +1,41 @@
+html,
+body,
+:root,
+#root{
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.allContact{
+  background-color:#46139f !important;
+  color: white !important;
+}
+.usContact{
+  background-color:#ff7f50 !important;
+  color: white !important; 
+}
+.closeBtn{
+  background-color: white !important;
+  color: black !important;
+  border:2px solid black !important;
+}
+.modalFooter{
+  justify-content: unset !important;
+}
+.modalContactBody{
+  height: 400px !important;
+  overflow: scroll !important;
+  overflow-x: hidden !important;
+}
